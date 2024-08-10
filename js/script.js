@@ -122,3 +122,49 @@
 // console.log(sumOddElements(arr));
 
 //2-masala
+// let arr = [5, 3, 6, 9, 7, 8, 4, 5, 9];
+// function minElement(arg) {
+//   let min = arg[0];
+
+//   for (const element of arg) {
+//     if (element == []) {
+//       return element;
+//     }
+//     if (element < min) {
+//       min = element;
+//     }
+//   }
+//   return min;
+// }
+
+// const minElement = function (arg) {
+//   let min = arg[0];
+
+//   for (const element of arg) {
+//     if (element == []) {
+//       return element;
+//     }
+//     if (element < min) {
+//       min = element;
+//     }
+//   }
+//   return min;
+// };
+
+// const minElement = (arg) => {
+//   let min = arg[0];
+
+//   for (const element of arg) {
+//     if (element == []) {
+//       return element;
+//     }
+//     if (element < min) {
+//       min = element;
+//     }
+//   }
+//   return min;
+// };
+// console.log(minElement(arr)); //3
+
+//3-masala
+let str = "salom 21546 bo454lalar56";
