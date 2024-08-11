@@ -166,5 +166,234 @@
 // };
 // console.log(minElement(arr)); //3
 
-//3-masala
-let str = "salom 21546 bo454lalar56";
+// //3-masala
+// let str = "salom 21546 bo454lalar56";
+// function findNumbers(arg) {
+//   let res = [];
+//   arg.split("").forEach((element) => {
+//     if (element > 0) {
+//       res.push(element);
+//     }
+//   });
+//   return res.join("");
+// }
+
+// const findNumbers = function (arg) {
+//   let res = [];
+//   arg.split("").forEach((element) => {
+//     if (element > 0) {
+//       res.push(element);
+//     }
+//   });
+//   return res.join("");
+// };
+
+// const findNumbers = (arg) => {
+//   let res = [];
+//   arg.split("").forEach((element) => {
+//     if (element > 0) {
+//       res.push(element);
+//     }
+//   });
+//   return res.join("");
+// };
+
+// console.log(findNumbers(str));
+
+//4-masala
+// let num = 5;
+// function sqrtElement(num) {
+//   return num ** 2;
+// }
+
+// const sqrtElement = function (num) {
+//   return num ** 2;
+// };
+
+// const sqrtElement = (num) => {
+//   return num ** 2;
+// };
+// console.log(sqrtElement(num));
+
+//5-masala
+// let str = "salom bolalar";
+// function reverseElement(arg) {
+//   let res = arg.split(" ");
+//   res = res.map((element) => {
+//     return element.split("").reverse().join("");
+//   });
+//   return res.join(" ");
+// }
+
+// const reverseElement = function (arg) {
+//   let res = arg.split(" ");
+//   res = res.map((element) => {
+//     return element.split("").reverse().join("");
+//   });
+//   return res.join(" ");
+// };
+
+// const reverseElement = (arg) => {
+//   let res = arg.split(" ");
+//   res = res.map((element) => {
+//     return element.split("").reverse().join("");
+//   });
+//   return res.join(" ");
+// };
+
+// console.log(reverseElement(str));
+
+//6-masala
+// let str = "hello world";
+// function countLetter(arg) {
+//   let res = arg.split("");
+//   return res.length;
+// }
+
+// const countLetter = function (arg) {
+//   let res = arg.split("");
+//   return res.length;
+// };
+
+// const countLetter = (arg) => {
+//   let res = arg.split("");
+//   return res.length;
+// };
+
+// console.log(countLetter(str));
+
+//7-masala
+// let arr = [1, 2, 3, 6, 9, 7];
+// function cubElement(arg) {
+//   let res = arg.map((element) => {
+//     return element ** 3;
+//   });
+//   return res;
+// }
+
+// const cubElement = function (arg) {
+//   let res = arg.map((element) => {
+//     return element ** 3;
+//   });
+//   return res;
+// };
+
+// const cubElement = (arg) => {
+//   let res = arg.map((element) => {
+//     return element ** 3;
+//   });
+//   return res;
+// };
+
+// console.log(cubElement(arr));
+
+//8-masala
+// let str = "hello world";
+// function reverseVowels(arg) {
+//   let res = [];
+//   arg.split("").forEach((element) => {
+//     if (
+//       element == "a" ||
+//       element == "e" ||
+//       element == "u" ||
+//       element == "o" ||
+//       element == "i" ||
+//       element == "A" ||
+//       element == "E" ||
+//       element == "U" ||
+//       element == "O" ||
+//       element == "I"
+//     ) {
+//       res.push(element);
+//     }
+//   });
+//   return res.reverse();
+// }
+
+// const reverseVowels = function (arg) {
+//   let res = [];
+//   arg.split("").forEach((element) => {
+//     if (
+//       element == "a" ||
+//       element == "e" ||
+//       element == "u" ||
+//       element == "o" ||
+//       element == "i" ||
+//       element == "A" ||
+//       element == "E" ||
+//       element == "U" ||
+//       element == "O" ||
+//       element == "I"
+//     ) {
+//       res.push(element);
+//     }
+//   });
+//   return res.reverse();
+// };
+
+// const reverseVowels = (arg) => {
+//   let res = [];
+//   arg.split("").forEach((element) => {
+//     if (
+//       element == "a" ||
+//       element == "e" ||
+//       element == "u" ||
+//       element == "o" ||
+//       element == "i" ||
+//       element == "A" ||
+//       element == "E" ||
+//       element == "U" ||
+//       element == "O" ||
+//       element == "I"
+//     ) {
+//       res.push(element);
+//     }
+//   });
+//   return res.reverse();
+// };
+
+// console.log(reverseVowels(str));
+
+//9-masala
+// let arr = [1, 8, 6, 8, 7, 9, 6, 3, 4, 5];
+// function averageElement(arg) {
+//   let sum = 0;
+//   for (const element of arg) {
+//     sum += element;
+//   }
+//   return sum / arg.length;
+// }
+
+// const averageElement = function (arg) {
+//   let sum = 0;
+//   for (const element of arg) {
+//     sum += element;
+//   }
+//   return sum / arg.length;
+// };
+
+// const averageElement = (arg) => {
+//   let sum = 0;
+//   for (const element of arg) {
+//     sum += element;
+//   }
+//   return sum / arg.length;
+// };
+
+// console.log(averageElement(arr));
+
+//10-masala
+// let str = "salom dunyo";
+// let text = "dunyo";
+// function removeText(arg) {
+//   return arg.replaceAll(text, " ");
+// }
+
+// const removeText = function (arg) {
+//   return arg.replaceAll(text, " ");
+// };
+
+// const removeText = (arg) => {
+//   return arg.replaceAll(text, " ");
+// };
+// console.log(removeText(str, text));
